@@ -3,7 +3,7 @@ export default function ContactPage() {
   return (
     <section className="flex flex-col justify-center items-center sm:h-screen px-4">
       <h2 className="text-3xl text-center mb-12 sm:text-left sm:text-5xl">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 from-0% via-red-600 via-80% to-red-600/85 to-90%">Let's Talk</span>
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 from-0% via-red-600 via-80% to-red-600/85 to-90%">Let&apos;s Talk</span>
       </h2>
 
       <div className="flex flex-col w-full sm:w-2/4">
