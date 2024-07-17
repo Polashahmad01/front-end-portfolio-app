@@ -4,7 +4,7 @@ import "./globals.css";
 const righteous = Righteous({ subsets: ["latin"], weight:["400"] });
 
 export const metadata = {
-  title: "",
+  title: "Polash Ahmad | Front End Engineer",
   description: "",
 };
 

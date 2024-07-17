@@ -3,6 +3,7 @@ import WhatIDoPage from "@/components/WhatIDoPage";
 import ToolIUsePage from "@/components/ToolsIUsePage";
 import MyRecentWorkPage from "@/components/MyRecentWorkPage";
 import MyExperiencePage from "@/components/MyExperiencePage";
+import ContactPage from "@/components/ContactPage";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <ToolIUsePage />
       <MyRecentWorkPage />
       <MyExperiencePage />
+      <ContactPage />
     </main>
   );
 }
