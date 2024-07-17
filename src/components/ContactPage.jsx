@@ -40,7 +40,7 @@ export default function ContactPage() {
 
         <div className="flex flex-col my-6">
           <button
-            className="py-2 md:py-3 px-4 bg-[#242424] border border-solid border-[rgba(255,255,255,.1)] text-xs md:text-sm rounded-lg block w-full cursor-pointer transition-all hover:text-indigo-600"
+            className="bg-[#242424] py-2 md:py-3 px-4 text-sm w-full block bg-[#ffffff08] border border-solid border-[rgba(255,255,255,.1)] rounded-lg outline-none cursor-pointer transition-all hover:text-indigo-600"
           >
             Send Message
           </button>
