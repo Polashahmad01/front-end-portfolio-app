@@ -1,7 +1,7 @@
-import { Righteous } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const righteous = Righteous({ subsets: ["latin"], weight:["400"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] });
 
 export const metadata = {
   title: "Polash Ahmad | Front End Engineer",
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={righteous.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }
