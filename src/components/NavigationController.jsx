@@ -7,7 +7,7 @@ export default function NavigationController() {
       <div className="hidden sm:block">
         <Navigation />
       </div>
-      <div className="block sm:hidden">
+      <div className="block pt-4 sm:hidden">
         <MobileNavigation />
       </div>
     </>
