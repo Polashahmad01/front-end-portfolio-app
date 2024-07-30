@@ -1,11 +1,13 @@
 import NavigationController from "@/components/NavigationController";
 import IntroPage from "@/components/IntroPage";
+import WhatIDoPage from "@/components/WhatIDoPage";
 
 export default function HomePage() {
   return (
     <main className="bg-black text-white">
       <NavigationController />
       <IntroPage />
+      <WhatIDoPage />
     </main>
   )
 }
