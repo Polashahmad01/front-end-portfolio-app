@@ -8,13 +8,13 @@ export default function Navigation() {
           <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Home</Link>
         </div>
         <div>
-          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Skill</Link>
+          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Skills</Link>
         </div>
         <div>
-          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Tool</Link>
+          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Tools</Link>
         </div>
         <div>
-          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Project</Link>
+          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Projects</Link>
         </div>
         <div>
           <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Career</Link>
