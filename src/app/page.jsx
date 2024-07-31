@@ -1,6 +1,7 @@
 import NavigationController from "@/components/NavigationController";
 import IntroPage from "@/components/IntroPage";
 import WhatIDoPage from "@/components/WhatIDoPage";
+import ToolsIUsePage from "@/components/ToolsIUsePage";
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <NavigationController />
       <IntroPage />
       <WhatIDoPage />
+      <ToolsIUsePage />
     </main>
   )
 }
