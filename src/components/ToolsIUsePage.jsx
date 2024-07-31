@@ -11,7 +11,7 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function ToolsIUsePage() {
   return (
-    <section className="container mx-auto h-[70vh]">
+    <section className="container mx-auto">
       <h3 className={`mb-4 leading-[61px] text-5xl ${righteous.className}`}>Tools I Use</h3>
 
       <div>

@@ -4,7 +4,7 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function WhatIDoPage() {
   return (
-    <section className="container mx-auto h-[70vh]">
+    <section className="container mx-auto">
       <p>What I Do</p>
       <h2 className={`mb-4 leading-[61px] text-5xl ${righteous.className}`}>Skills</h2>
 
