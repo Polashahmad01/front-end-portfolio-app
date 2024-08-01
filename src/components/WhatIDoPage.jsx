@@ -22,10 +22,10 @@ export default function WhatIDoPage() {
           </h3>
           <div className="text-sm">
             <p>
-              Bring your vision to life with a stunning, responsive website. We prioritize accessibility and optimize performance for a seamless experience. Together, we&#39ll create engaging interactions that keep your audience coming back.
+              Bring your vision to life with a stunning, responsive website. We prioritize accessibility and optimize performance for a seamless experience. Together, we&#39;ll create engaging interactions that keep your audience coming back.
             </p>
             <p>
-              Let’s build a digital presence they&#39ll love!
+              Let&#39;s build a digital presence they&#39;ll love!
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function WhatIDoPage() {
               Leverage modern JavaScript skills to create dynamic web applications that engage users. Focus on polished designs with CSS and preprocessors, using version control for smooth collaboration. Build tools and API integration streamline workflows and enhance functionality.
             </p>
             <p>
-              Together, let&#39s develop efficient web solutions that elevate your online presence!
+              Together, let&#39;s develop efficient web solutions that elevate your online presence!
             </p>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function WhatIDoPage() {
 
       <div className="flex justify-center">
         <button className="text-sm p-4 border border-solid rounded-[80px] backdrop-blur-xl border-[rgba(255,255,255,.1)] bg-[rgba(4,19,14,.5)]">
-          Let&#39s chat on Whatsapp
+          Let&#39;s chat on Whatsapp
         </button>
       </div>
 
