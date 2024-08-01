@@ -7,9 +7,9 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function IntroPage() {
   return (
-    <section className="flex justify-center items-center h-screen">
+    <section className="flex justify-center items-center min-h-screen">
 
-      <div className="container mx-auto flex justify-between items-center h-full">
+      <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center h-full">
         <div className="flex-1">
           <div className="block mx-auto object-cover w-64 sm:w-96">
             <Image

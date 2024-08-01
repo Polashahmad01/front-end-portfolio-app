@@ -12,11 +12,11 @@ export default function HomePage() {
     <main className="bg-black text-white">
       <NavigationController />
       <IntroPage />
-      <WhatIDoPage />
+      {/* <WhatIDoPage />
       <ToolsIUsePage />
       <MyRecentWorkPage />
       <MyExperiencePage />
-      <ContactPage />
+      <ContactPage /> */}
       <AppFooter />
     </main>
   )
