@@ -13,8 +13,8 @@ export default function HomePage() {
       <NavigationController />
       <IntroPage />
       {/* <WhatIDoPage />
-      <ToolsIUsePage />
-      <MyRecentWorkPage /> */}
+      <ToolsIUsePage /> */}
+      <MyRecentWorkPage />
       <MyExperiencePage />
       <ContactPage />
       <AppFooter />
