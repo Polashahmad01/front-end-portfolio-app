@@ -1,61 +1,106 @@
+import Image from "next/image";
 import { Righteous } from "next/font/google";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import zinationLogo from "../../public/images/zination.svg";
+import eireneLogo from "../../public/images/eirene.svg";
+import spontivlyLogo from "../../public/images/spontivly.svg";
+import hanabosoLogo from "../../public/images/hanaboso.svg";
 
 const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function MyExperiencePage() {
   return (
-    <section className="container mx-auto">
-      <h3 className={`mb-4 leading-[61px] text-5xl ${righteous.className}`}>My Experiences</h3>
+      <section className="container mx-auto my-[10vh]">
+      <h3 className={`mb-12 text-center leading-[61px] text-5xl ${righteous.className}`}>My Experiences</h3>
 
-      <div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-16">
 
-        <div>
-          <div>
-            <h6>Zination</h6>
-            <MdOutlineArrowOutward />
+        <div className="bg-[#171717] rounded-3xl px-10 py-16 opacity-85">
+          <div className="flex items-center gap-4 mb-4">
+            <Image
+              src={zinationLogo}
+              alt="Zination"
+              priority
+              className="w-10"
+            />
+            <h6 className="font-semibold text-lg">Zination</h6>
+            <MdOutlineArrowOutward size="18px" />
           </div>
-          <div>
-            <h4>Front End Engineer</h4>
-            <p>March 2020 - Dec 2021</p>
+          <div className="flex items-center justify-between mb-4">
+            <h4 className="text-2xl font-bold">Front End Engineer</h4>
+            <p className="text-sm font-light">March 2020 - Dec 2021</p>
           </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.</p>
+          <p className="font-light">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+          </p>
         </div>
 
-        <div>
-          <div>
-            <h6>Zination</h6>
-            <MdOutlineArrowOutward />
+        <div className="bg-[#171717] rounded-3xl px-10 py-16 opacity-85">
+          <div className="flex items-center gap-4 mb-4">
+            <Image
+              src={eireneLogo}
+              alt="Zination"
+              priority
+              className="w-10"
+            />
+            <h6 className="font-semibold text-lg">Eirene Cremations</h6>
+            <MdOutlineArrowOutward size="18px" />
           </div>
-          <div>
-            <h4>Front End Engineer</h4>
-            <p>March 2020 - Dec 2021</p>
+          <div className="flex items-center justify-between mb-4">
+            <h4 className="text-2xl font-bold">Front End Engineer</h4>
+            <p className="text-sm font-light">March 2020 - Dec 2021</p>
           </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.</p>
+          <p className="font-light">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+          </p>
         </div>
 
-        <div>
-          <div>
-            <h6>Zination</h6>
-            <MdOutlineArrowOutward />
+        <div className="bg-[#171717] rounded-3xl px-10 py-16 opacity-85">
+          <div className="flex items-center gap-4 mb-4">
+            <Image
+              src={spontivlyLogo}
+              alt="Zination"
+              priority
+              className="w-10"
+            />
+            <h6 className="font-semibold text-lg">Spontivly</h6>
+            <MdOutlineArrowOutward size="20px" />
           </div>
-          <div>
-            <h4>Front End Engineer</h4>
-            <p>March 2020 - Dec 2021</p>
+          <div className="flex items-center justify-between mb-4">
+            <h4 className="text-2xl font-bold">Front End Engineer</h4>
+            <p className="text-sm font-light">March 2020 - Dec 2021</p>
           </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.</p>
+          <p className="font-light">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+          </p>
         </div>
         
-        <div>
-          <div>
-            <h6>Zination</h6>
-            <MdOutlineArrowOutward />
+        <div className="bg-[#171717] rounded-3xl px-10 py-16 opacity-85">
+          <div className="flex items-center gap-4 mb-4">
+            <Image
+              src={hanabosoLogo}
+              alt="Zination"
+              priority
+              className="w-10"
+            />
+            <h6 className="font-semibold text-lg">Hanaboso</h6>
+            <MdOutlineArrowOutward size="20px" />
           </div>
-          <div>
-            <h4>Front End Engineer</h4>
-            <p>March 2020 - Dec 2021</p>
+          <div className="flex items-center justify-between mb-4">
+            <h4 className="text-2xl font-bold">Front End Engineer</h4>
+            <p className="text-sm font-light">March 2020 - Dec 2021</p>
           </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.</p>
+          <p className="font-light">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
+          </p>
         </div>
 
       </div>

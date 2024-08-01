@@ -14,8 +14,8 @@ export default function HomePage() {
       <IntroPage />
       {/* <WhatIDoPage />
       <ToolsIUsePage />
-      <MyRecentWorkPage />
-      <MyExperiencePage /> */}
+      <MyRecentWorkPage /> */}
+      <MyExperiencePage />
       <ContactPage />
       <AppFooter />
     </main>
