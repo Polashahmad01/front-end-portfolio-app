@@ -11,79 +11,81 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function ToolsIUsePage() {
   return (
-    <section className="container mx-auto">
-      <h3 className={`mb-4 leading-[61px] text-5xl ${righteous.className}`}>Tools I Use</h3>
+    <section className="container mx-auto my-[10vh]">
+      <h3 className={`mb-12 leading-[61px] text-5xl text-center ${righteous.className}`}>Tools I Use</h3>
 
-      <div>
+      <div className="grid grid-cols-2 sm:grid-cols-7 gap-4">
 
-        <div>
-          <FaHtml5 />
-          <p>Html</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <FaHtml5 className="mb-4" size="70px" />
+          <p className="uppercase font-medium">Html</p>
         </div>
 
-        <div>
-          <IoLogoCss3 />
-          <p>Css</p>
+
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <IoLogoCss3 className="mb-4" size="70px" />
+          <p className="uppercase font-medium">Css</p>
         </div>
 
-        <div>
-          <IoLogoSass />
-          <p>Sass</p>
+
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <IoLogoSass className="mb-4" size="70px" />
+          <p className="uppercase font-medium">Sass</p>
         </div>
 
-        <div>
-          <RiJavascriptFill />
-          <p>JavaScript</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <RiJavascriptFill className="mb-4" size="70px" />
+          <p className="uppercase font-medium">JavaScript</p>
         </div>
 
-        <div>
-          <IoLogoReact />
-          <p>ReactJS</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <IoLogoReact className="mb-4" size="70px" />
+          <p className="uppercase font-medium">ReactJS</p>
         </div>
 
-        <div>
-          <RiNextjsFill />
-          <p>NextJS</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <RiNextjsFill className="mb-4" size="70px" />
+          <p className="uppercase font-medium">NextJS</p>
         </div>
 
-        <div>
-          <SiFirebase />
-          <p>FirebaseJS</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <SiFirebase className="mb-4" size="70px" />
+          <p className="uppercase font-medium">FirebaseJS</p>
         </div>
 
-        <div>
-          <SiRedux />
-          <p>ReduxJS</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <SiRedux className="mb-4" size="70px" />
+          <p className="uppercase font-medium">ReduxJS</p>
         </div>
 
-        <div>
-          <BsStripe />
-          <p>StripeJS</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <BsStripe className="mb-4" size="70px" />
+          <p className="uppercase font-medium">StripeJS</p>
         </div>
 
-        <div>
-          <FaGitAlt />
-          <p>Git</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <FaGitAlt className="mb-4" size="70px" />
+          <p className="uppercase font-medium">Git</p>
         </div>
 
-        <div>
-          <FaGithub />
-          <p>Github</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <FaGithub className="mb-4" size="70px" />
+          <p className="uppercase font-medium">Github</p>
         </div>
 
-        <div>
-          <IoTerminal />
-          <p>Terminal</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <IoTerminal className="mb-4" size="70px" />
+          <p className="uppercase font-medium">Terminal</p>
         </div>
 
-        <div>
-          <MdDevices />
-          <p>Dev Tools</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <MdDevices className="mb-4" size="70px" />
+          <p className="uppercase font-medium">Dev Tools</p>
         </div>
 
-        <div>
-          <VscVscode />
-          <p>VS Code</p>
+        <div className="bg-[#18181A] flex flex-col items-center py-6 rounded-md">
+          <VscVscode className="mb-4" size="70px" />
+          <p className="uppercase font-medium">VS Code</p>
         </div>
 
       </div>

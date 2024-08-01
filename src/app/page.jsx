@@ -12,8 +12,8 @@ export default function HomePage() {
     <main className="bg-black text-white">
       <NavigationController />
       <IntroPage />
-      {/* <WhatIDoPage />
-      <ToolsIUsePage /> */}
+      {/* <WhatIDoPage /> */}
+      <ToolsIUsePage />
       <MyRecentWorkPage />
       <MyExperiencePage />
       <ContactPage />
