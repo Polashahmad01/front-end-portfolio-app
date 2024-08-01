@@ -12,9 +12,9 @@ export default function ContactPage() {
           <div className="mb-4 opacity-85">
             <button className="uppercase px-8 py-3 opacity-85 text-sm border border-solid rounded-[80px] backdrop-blur-xl border-[rgba(255,255,255,.1)] bg-[rgba(4,19,14,.5)]">Contact Us</button>
           </div>
-          <h4 className={`leading-[61px] text-5xl mb-4 opacity-85 ${righteous.className}`}>Let's Get In Touch!</h4>
+          <h4 className={`leading-[61px] text-5xl mb-4 opacity-85 ${righteous.className}`}>Let&#39s Get In Touch!</h4>
           <p className="opacity-85 font-light mb-8">
-            If you're interested in learning more about me, collaborating on a project, or simply curious and want to say hello, please don't hesitate to send me a message. I enjoy receiving messages from people on the internet!
+            If you&#39re interested in learning more about me, collaborating on a project, or simply curious and want to say hello, please don&#39t hesitate to send me a message. I enjoy receiving messages from people on the internet!
           </p>
           <div className="border-t border-solid border-[#181818] mb-8"/>
           <p className="font-semibold text-xl mb-3 opacity-85">Follow Me</p>
@@ -41,7 +41,7 @@ export default function ContactPage() {
         </div>
 
         <div className={`bg-[#171717] px-10 py-14 rounded-3xl ${righteous.className}`}>
-          <h4 className={`leading-[61px] text-5xl mb-4 opacity-85`}>Let's Talk!</h4>
+          <h4 className={`leading-[61px] text-5xl mb-4 opacity-85`}>Let&#39s Talk!</h4>
           <div className="flex flex-col gap-4">
             <div>
               <input className="px-4 py-2 rounded-lg w-full" type="text" placeholder="Enter your name" />

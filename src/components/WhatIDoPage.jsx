@@ -5,10 +5,10 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 export default function WhatIDoPage() {
   return (
     <section className="container mx-auto">
-      <p>What I Do</p>
-      <h2 className={`mb-4 leading-[61px] text-5xl ${righteous.className}`}>Skills</h2>
+      <p className="text-center mb-4">What I Do</p>
+      <h2 className={`mb-12 leading-[61px] text-5xl text-center ${righteous.className}`}>Skills</h2>
 
-      <div className="grid grid-cols-3 gap-8 mb-4">
+      <div className="grid grid-cols-3 gap-8 mb-12">
 
         <div className="px-10 py-12 border border-solid rounded-xl backdrop-blur-xl border-[rgba(255,255,255,.1)]">
           <div>
@@ -22,10 +22,10 @@ export default function WhatIDoPage() {
           </h3>
           <div className="text-sm">
             <p>
-              Bring your vision to life with a stunning, responsive website. We prioritize accessibility and optimize performance for a seamless experience. Together, we'll create engaging interactions that keep your audience coming back.
+              Bring your vision to life with a stunning, responsive website. We prioritize accessibility and optimize performance for a seamless experience. Together, we&#39ll create engaging interactions that keep your audience coming back.
             </p>
             <p>
-              Let’s build a digital presence they'll love!
+              Let’s build a digital presence they&#39ll love!
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function WhatIDoPage() {
               Leverage modern JavaScript skills to create dynamic web applications that engage users. Focus on polished designs with CSS and preprocessors, using version control for smooth collaboration. Build tools and API integration streamline workflows and enhance functionality.
             </p>
             <p>
-              Together, let's develop efficient web solutions that elevate your online presence!
+              Together, let&#39s develop efficient web solutions that elevate your online presence!
             </p>
           </div>
         </div>
@@ -71,9 +71,9 @@ export default function WhatIDoPage() {
         </div>
       </div>
 
-      <div>
+      <div className="flex justify-center">
         <button className="text-sm p-4 border border-solid rounded-[80px] backdrop-blur-xl border-[rgba(255,255,255,.1)] bg-[rgba(4,19,14,.5)]">
-          Let's chat on Whatsapp
+          Let&#39s chat on Whatsapp
         </button>
       </div>
 
