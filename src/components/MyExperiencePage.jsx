@@ -10,99 +10,95 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function MyExperiencePage() {
   return (
-      <section className="container mx-auto my-[10vh]">
-      <h3 className={`mb-12 text-center leading-[61px] text-5xl ${righteous.className}`}>My Experiences</h3>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-16">
-
-        <div className="bg-[#171717] rounded-3xl px-10 py-16 opacity-85">
-          <div className="flex items-center gap-4 mb-4">
-            <Image
-              src={zinationLogo}
-              alt="Zination"
-              priority
-              className="w-10"
-            />
-            <h6 className="font-semibold text-lg">Zination</h6>
-            <MdOutlineArrowOutward size="18px" />
+    <section className="container mx-auto my-[10vh]">
+      <div className="px-4 xl:px-0">
+        <h3 className={`${righteous.className} text-3xl lg:text-5xl lg:text-center mb-12`}>My Experience</h3>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="opacity-85 p-8 rounded-xl bg-[#171717]">
+            <div className="flex flex-wrap items-center gap-4 mb-1">
+              <Image
+                src={zinationLogo}
+                alt="zination"
+                priority
+                className="w-12 object-cover"
+              />
+              <h6 className="font-bold text-lg">Zination</h6>
+              <MdOutlineArrowOutward size="18px" />
+            </div>
+            <div className="flex items-center justify-between mb-4">
+              <h4 className="text-xl font-extrabold">FrontEnd Engineer</h4>
+              <p className="font-light text-sm">March 2020 - Dec 2021</p>
+            </div>
+            <p className="font-light">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum? Voluptatum illo saepe ea
+              esse dicta eum eos. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+            </p>
           </div>
-          <div className="flex items-center justify-between mb-4">
-            <h4 className="text-2xl font-bold">Front End Engineer</h4>
-            <p className="text-sm font-light">March 2020 - Dec 2021</p>
+          <div className="opacity-85 p-8 rounded-xl bg-[#171717]">
+            <div className="flex flex-wrap items-center gap-4 mb-1">
+              <Image
+                src={eireneLogo}
+                alt="zination"
+                priority
+                className="w-12 object-cover"
+              />
+              <h6 className="font-bold text-lg">Eirene Cremations</h6>
+              <MdOutlineArrowOutward size="18px" />
+            </div>
+            <div className="flex items-center justify-between mb-4">
+              <h4 className="text-xl font-extrabold">FrontEnd Developer</h4>
+              <p className="font-light text-sm">Jan 2021 - Feb 2022</p>
+            </div>
+            <p className="font-light">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum? Voluptatum illo saepe ea
+              esse dicta eum eos. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+            </p>
           </div>
-          <p className="font-light">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-          </p>
+          <div className="opacity-85 p-8 rounded-xl bg-[#171717]">
+            <div className="flex flex-wrap items-center gap-4 mb-1">
+              <Image
+                src={spontivlyLogo}
+                alt="zination"
+                priority
+                className="w-12 object-cover"
+              />
+              <h6 className="font-bold text-lg">Spontivly</h6>
+              <MdOutlineArrowOutward size="18px" />
+            </div>
+            <div className="flex items-center justify-between mb-4">
+              <h4 className="text-xl font-extrabold">FrontEnd Developer</h4>
+              <p className="font-light text-sm">Feb 2022 - March 2023</p>
+            </div>
+            <p className="font-light">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum? Voluptatum illo saepe ea
+              esse dicta eum eos. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+            </p>
+          </div>
+          <div className="opacity-85 p-8 rounded-xl bg-[#171717]">
+            <div className="flex flex-wrap items-center gap-4 mb-1">
+              <Image
+                src={hanabosoLogo}
+                alt="zination"
+                priority
+                className="w-12 object-cover"
+              />
+              <h6 className="font-bold text-lg">Hanaboso</h6>
+              <MdOutlineArrowOutward size="18px" />
+            </div>
+            <div className="flex items-center justify-between mb-4">
+              <h4 className="text-xl font-extrabold">FrontEnd Engineer</h4>
+              <p className="font-light text-sm">May 2023 - March 2024</p>
+            </div>
+            <p className="font-light">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum? Voluptatum illo saepe ea
+              esse dicta eum eos. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+            </p>
+          </div>
         </div>
-
-        <div className="bg-[#171717] rounded-3xl px-10 py-16 opacity-85">
-          <div className="flex items-center gap-4 mb-4">
-            <Image
-              src={eireneLogo}
-              alt="Zination"
-              priority
-              className="w-10"
-            />
-            <h6 className="font-semibold text-lg">Eirene Cremations</h6>
-            <MdOutlineArrowOutward size="18px" />
-          </div>
-          <div className="flex items-center justify-between mb-4">
-            <h4 className="text-2xl font-bold">Front End Engineer</h4>
-            <p className="text-sm font-light">March 2020 - Dec 2021</p>
-          </div>
-          <p className="font-light">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-          </p>
-        </div>
-
-        <div className="bg-[#171717] rounded-3xl px-10 py-16 opacity-85">
-          <div className="flex items-center gap-4 mb-4">
-            <Image
-              src={spontivlyLogo}
-              alt="Zination"
-              priority
-              className="w-10"
-            />
-            <h6 className="font-semibold text-lg">Spontivly</h6>
-            <MdOutlineArrowOutward size="20px" />
-          </div>
-          <div className="flex items-center justify-between mb-4">
-            <h4 className="text-2xl font-bold">Front End Engineer</h4>
-            <p className="text-sm font-light">March 2020 - Dec 2021</p>
-          </div>
-          <p className="font-light">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-          </p>
-        </div>
-        
-        <div className="bg-[#171717] rounded-3xl px-10 py-16 opacity-85">
-          <div className="flex items-center gap-4 mb-4">
-            <Image
-              src={hanabosoLogo}
-              alt="Zination"
-              priority
-              className="w-10"
-            />
-            <h6 className="font-semibold text-lg">Hanaboso</h6>
-            <MdOutlineArrowOutward size="20px" />
-          </div>
-          <div className="flex items-center justify-between mb-4">
-            <h4 className="text-2xl font-bold">Front End Engineer</h4>
-            <p className="text-sm font-light">March 2020 - Dec 2021</p>
-          </div>
-          <p className="font-light">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, beatae! Ut nostrum consequatur iure ad! Amet quis est sit fugiat.
-          </p>
-        </div>
-
       </div>
     </section>
   );

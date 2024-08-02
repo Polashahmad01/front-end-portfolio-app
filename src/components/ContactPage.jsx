@@ -5,20 +5,18 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 export default function ContactPage() {
   return (
     <section className="container mx-auto my-[10vh]">
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-20">
-
-        <div>
-          <div className="mb-4 opacity-85">
-            <button className="uppercase px-8 py-3 opacity-85 text-sm border border-solid rounded-[80px] backdrop-blur-xl border-[rgba(255,255,255,.1)] bg-[rgba(4,19,14,.5)]">Contact Us</button>
+      <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-20 mx-4 xl:mx-0">
+        <div className="opacity-85">
+          <div className="mb-6">
+            <button className="px-4 py-[6px] uppercase text-sm border border-solid rounded-[80px] backdrop-blur-xl border-[rgba(255,255,255,.1)] bg-[rgba(4,19,14,.5)]">Contact Us</button>
           </div>
-          <h4 className={`leading-[61px] text-5xl mb-4 opacity-85 ${righteous.className}`}>Let&#39;s Get In Touch!</h4>
-          <p className="opacity-85 font-light mb-8">
+          <h4 className={`${righteous.className} text-3xl lg:text-5xl mb-6`}>Let&#39;s Get In Touch!</h4>
+          <p className="font-light mb-6">
             If you&#39;re interested in learning more about me, collaborating on a project, or simply curious and want to say hello, please don&#39;t hesitate to send me a message. I enjoy receiving messages from people on the internet!
           </p>
-          <div className="border-t border-solid border-[#181818] mb-8"/>
-          <p className="font-semibold text-xl mb-3 opacity-85">Follow Me</p>
-          <div className="flex items-center gap-4">
+          <div className="border-t border-solid border-[#181818] mb-6" />
+          <p className={`${righteous.className} text-lg mb-4`}>Follow Me</p>
+          <div className="flex flex-wrap items-center gap-4">
             <svg width="27" height="27" viewBox="0 0 27 27" fill="#fff" xmlns="http://www.w3.org/2000/svg">
               <rect x="1" y="1" width="25" height="25" rx="7.13616" stroke="#14142B" strokeWidth="2" />
               <path d="M19.8968 8.1543V8.1543C16.9993 8.1543 14.6504 10.5032 14.6504 13.4007V25.4407" stroke="#14142B" strokeWidth="2" strokeLinecap="round" />
@@ -39,27 +37,24 @@ export default function ContactPage() {
             </svg>
           </div>
         </div>
-
-        <div className={`bg-[#171717] px-10 py-14 rounded-3xl ${righteous.className}`}>
-          <h4 className={`leading-[61px] text-5xl mb-4 opacity-85`}>Let&#39;s Talk!</h4>
-          <div className="flex flex-col gap-4">
-            <div>
-              <input className="px-4 py-2 rounded-lg w-full" type="text" placeholder="Enter your name" />
+        <div className="bg-[#171717] rounded-xl px-8 py-8 lg:px-10 lg:py-14">
+          <h4 className={`${righteous.className} text-3xl lg:text-5xl mb-7 opacity-85`}>Let&#39;s Talk!</h4>
+          <div className="grid grid-rows-1 gap-6">
+            <div className="w-full">
+              <input className="px-4 py-[6px] lg:px-4 lg:py-2 rounded-lg w-full" type="text" placeholder="Enter your name" />
             </div>
-            <div>
-              <input className="px-4 py-2 rounded-lg w-full" type="text" placeholder="Enter your email" />
+            <div className="w-full">
+              <input className="px-4 py-[6px] lg:px-4 lg:py-2 rounded-lg w-full" type="email" placeholder="Enter your email" />
             </div>
-            <div>
-              <textarea className="px-4 py-2 rounded-lg w-full" rows={8} placeholder="Enter your message"></textarea>
+            <div className="w-full">
+              <textarea className="px-4 py-[6px] lg:px-4 lg:py-2 rounded-lg w-full" rows={8} placeholder="Enter your message"></textarea>
             </div>
-            <div>
-              <button className="px-4 py-2 rounded-lg w-full bg-white text-black opacity-85">Send Message</button>
+            <div className="w-full">
+              <button className="px-4 py-[6px] lg:px-4 lg:py-2 bg-white text-black rounded-lg w-full">Send Message</button>
             </div>
           </div>
         </div>
-
       </div>
-
     </section>
   );
 }
