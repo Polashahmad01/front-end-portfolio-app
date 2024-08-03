@@ -9,172 +9,166 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 export default function MyRecentWorkPage() {
   return (
     <section className="container mx-auto">
-      <h3 className={`mb-12 leading-[61px] text-5xl text-center ${righteous.className}`}>My Recent Projects</h3>
-
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-
-        <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
-          <div className="mb-4">
-            <Image
-              src={tattooDesignProImgSrc}
-              alt="Tattoo Design Pro"
-              className="w-full rounded-md"
-            />
-          </div>
-          <div className="bg-[#24272A] rounded-lg p-4">
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-2">
-                <h6 className="font-bold tracking-widest">TattooDesignPro</h6>
-                <GrFormNextLink size="20px" />
+      <div className="px-4 xl:px-0">
+        <h3 className={`${righteous.className} text-3xl lg:text-5xl lg:text-center mb-12`}>My Recent Projects</h3>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
+            <div className="mb-4">
+              <Image
+                src={tattooDesignProImgSrc}
+                alt="Tattoo Design Pro"
+                className="w-full rounded-md"
+              />
+            </div>
+            <div className="bg-[#24272A] rounded-lg p-4">
+              <div className="mb-6">
+                <div className="flex items-center justify-between mb-2">
+                  <h6 className="font-bold tracking-wide">TattooDesignPro</h6>
+                  <GrFormNextLink size="20px" />
+                </div>
+                <div className="flex gap-2">
+                  <GB title="United Kingdom" className="w-4" />
+                  <p className="text-sm opacity-70">Covent Garden, London, United Kingdom</p>
+                </div>
               </div>
-              <div className="flex gap-2">
-                <GB title="United Kingdom" className="w-4" />
-                <p className="text-sm opacity-70">Covent Garden, London, United Kingdom</p>
+              <div className="text-xs flex items-center gap-2">
+                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
+                <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>
             </div>
-            <div className="text-xs flex items-center gap-2">
-              <p className="opacity-60">Designed by: Polash Ahmad</p>
-              <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
-              <p className="opacity-60">Developed by: Polash Ahmad</p>
+          </div>
+          <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
+            <div className="mb-4">
+              <Image
+                src={tattooDesignProImgSrc}
+                alt="Tattoo Design Pro"
+                className="w-full rounded-md"
+              />
             </div>
-          </div>
-        </div>
-
-        <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
-          <div className="mb-4">
-            <Image
-              src={tattooDesignProImgSrc}
-              alt="Tattoo Design Pro"
-              className="w-full rounded-md"
-            />
-          </div>
-          <div className="bg-[#24272A] rounded-lg p-4">
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-2">
-                <h6 className="font-bold tracking-widest">WordRocket</h6>
-                <GrFormNextLink size="20px" />
+            <div className="bg-[#24272A] rounded-lg p-4">
+              <div className="mb-6">
+                <div className="flex items-center justify-between mb-2">
+                  <h6 className="font-bold tracking-wide">WordRocket</h6>
+                  <GrFormNextLink size="20px" />
+                </div>
+                <div className="flex gap-2">
+                  <CA title="Canada" className="w-4" />
+                  <p className="text-sm opacity-70">Spadina Road, Toronto, Canada</p>
+                </div>
               </div>
-              <div className="flex gap-2">
-                <CA title="Canada" className="w-4" />
-                <p className="text-sm opacity-70">Spadina Road, Toronto, Canada</p>
-              </div>
-            </div>
-            <div className="text-xs flex items-center gap-2">
-              <p className="opacity-60">Designed by: Polash Ahmad</p>
-              <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
-              <p className="opacity-60">Developed by: Polash Ahmad</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
-          <div className="mb-4">
-            <Image
-              src={tattooDesignProImgSrc}
-              alt="Tattoo Design Pro"
-              className="w-full rounded-md"
-            />
-          </div>
-          <div className="bg-[#24272A] rounded-lg p-4">
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-2">
-                <h6 className="font-bold tracking-widest">Spontivly</h6>
-                <GrFormNextLink size="20px" />
-              </div>
-              <div className="flex gap-2">
-                <US title="United States" className="w-4" />
-                <p className="text-sm opacity-70">St Petersburg, Florida, United States</p>
+              <div className="text-xs flex items-center gap-2">
+                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
+                <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>
             </div>
-            <div className="text-xs flex items-center gap-2">
-              <p className="opacity-60">Designed by: Polash Ahmad</p>
-              <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
-              <p className="opacity-60">Developed by: Polash Ahmad</p>
+          </div>
+          <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
+            <div className="mb-4">
+              <Image
+                src={tattooDesignProImgSrc}
+                alt="Tattoo Design Pro"
+                className="w-full rounded-md"
+              />
             </div>
-          </div>
-        </div>
-
-        <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
-          <div className="mb-4">
-            <Image
-              src={tattooDesignProImgSrc}
-              alt="Tattoo Design Pro"
-              className="w-full rounded-md"
-            />
-          </div>
-          <div className="bg-[#24272A] rounded-lg p-4">
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-2">
-                <h6 className="font-bold tracking-widest">Eirene Cremations</h6>
-                <GrFormNextLink size="20px" />
+            <div className="bg-[#24272A] rounded-lg p-4">
+              <div className="mb-6">
+                <div className="flex items-center justify-between mb-2">
+                  <h6 className="font-bold tracking-wide">Spontivly</h6>
+                  <GrFormNextLink size="20px" />
+                </div>
+                <div className="flex gap-2">
+                  <US title="United States" className="w-4" />
+                  <p className="text-sm opacity-70">St Petersburg, Florida, United States</p>
+                </div>
               </div>
-              <div className="flex gap-2">
-                <CA title="Canada" className="w-4" />
-                <p className="text-sm opacity-70">Regina, Saskatchewan, Canada</p>
-              </div>
-            </div>
-            <div className="text-xs flex items-center gap-2">
-              <p className="opacity-60">Designed by: Polash Ahmad</p>
-              <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
-              <p className="opacity-60">Developed by: Polash Ahmad</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
-          <div className="mb-4">
-            <Image
-              src={tattooDesignProImgSrc}
-              alt="Tattoo Design Pro"
-              className="w-full rounded-md"
-            />
-          </div>
-          <div className="bg-[#24272A] rounded-lg p-4">
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-2">
-                <h6 className="font-bold tracking-widest">Zasilkovna</h6>
-                <GrFormNextLink size="20px" />
-              </div>
-              <div className="flex gap-2">
-                <CZ title="Czech Republic" className="w-4" />
-                <p className="text-sm opacity-70">Českomoravská 2408, 190 00 Praha 9, Czechia</p>
+              <div className="text-xs flex items-center gap-2">
+                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
+                <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>
             </div>
-            <div className="text-xs flex items-center gap-2">
-              <p className="opacity-60">Designed by: Polash Ahmad</p>
-              <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
-              <p className="opacity-60">Developed by: Polash Ahmad</p>
+          </div>
+          <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
+            <div className="mb-4">
+              <Image
+                src={tattooDesignProImgSrc}
+                alt="Tattoo Design Pro"
+                className="w-full rounded-md"
+              />
+            </div>
+            <div className="bg-[#24272A] rounded-lg p-4">
+              <div className="mb-6">
+                <div className="flex items-center justify-between mb-2">
+                  <h6 className="font-bold tracking-wide">Eirene Cremations</h6>
+                  <GrFormNextLink size="20px" />
+                </div>
+                <div className="flex gap-2">
+                  <CA title="Canada" className="w-4" />
+                  <p className="text-sm opacity-70">Regina, Saskatchewan, Canada</p>
+                </div>
+              </div>
+              <div className="text-xs flex items-center gap-2">
+                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
+                <p className="opacity-60">Developed by: Polash Ahmad</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
-          <div className="mb-4">
-            <Image
-              src={tattooDesignProImgSrc}
-              alt="Tattoo Design Pro"
-              className="w-full rounded-md"
-            />
-          </div>
-          <div className="bg-[#24272A] rounded-lg p-4">
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-2">
-                <h6 className="font-bold tracking-widest">Rhonda.ai</h6>
-                <GrFormNextLink size="20px" />
+          <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
+            <div className="mb-4">
+              <Image
+                src={tattooDesignProImgSrc}
+                alt="Tattoo Design Pro"
+                className="w-full rounded-md"
+              />
+            </div>
+            <div className="bg-[#24272A] rounded-lg p-4">
+              <div className="mb-6">
+                <div className="flex items-center justify-between mb-2">
+                  <h6 className="font-bold tracking-wide">Zasilkovna</h6>
+                  <GrFormNextLink size="20px" />
+                </div>
+                <div className="flex gap-2">
+                  <CZ title="Czech Republic" className="w-4" />
+                  <p className="text-sm opacity-70">Českomoravská 2408, 190 00 Praha 9, Czechia</p>
+                </div>
               </div>
-              <div className="flex gap-2">
-                <CA title="Canada" className="w-4" />
-                <p className="text-sm opacity-70">Ottawa, Ontario, Canada</p>
+              <div className="text-xs flex items-center gap-2">
+                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
+                <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>
             </div>
-            <div className="text-xs flex items-center gap-2">
-              <p className="opacity-60">Designed by: Polash Ahmad</p>
-              <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
-              <p className="opacity-60">Developed by: Polash Ahmad</p>
+          </div>
+          <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
+            <div className="mb-4">
+              <Image
+                src={tattooDesignProImgSrc}
+                alt="Tattoo Design Pro"
+                className="w-full rounded-md"
+              />
+            </div>
+            <div className="bg-[#24272A] rounded-lg p-4">
+              <div className="mb-6">
+                <div className="flex items-center justify-between mb-2">
+                  <h6 className="font-bold tracking-wide">Rhonda.ai</h6>
+                  <GrFormNextLink size="20px" />
+                </div>
+                <div className="flex gap-2">
+                  <CA title="Canada" className="w-4" />
+                  <p className="text-sm opacity-70">Ottawa, Ontario, Canada</p>
+                </div>
+              </div>
+              <div className="text-xs flex items-center gap-2">
+                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
+                <p className="opacity-60">Developed by: Polash Ahmad</p>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );
