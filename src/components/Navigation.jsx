@@ -2,25 +2,25 @@ import Link from "next/link";
 
 export default function Navigation() {
   return (
-    <nav className="relative text-white font-light uppercase text-sm tracking-wide opacity-85 z-50">
-      <div className="fixed top-14 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-solid rounded-[80px] backdrop-blur-xl border-[rgba(255,255,255,.1)] bg-[rgba(4,19,14,.5)] flex items-center p-4">
+    <nav className="relative text-white font-light uppercase text-sm tracking-wide opacity-100 z-50">
+      <div className="fixed top-16 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-solid rounded-[80px] backdrop-blur-xl border-[rgba(255,255,255,.1)] bg-[rgba(4,19,14,.5)] flex items-center py-6">
         <div>
-          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Home</Link>
+          <Link className="px-8 tracking-[2px] border-r border-solid border-[rgba(255,255,255,.1)] transition-all hover:text-[#18ffb0]" href="#">Home</Link>
         </div>
         <div>
-          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Skills</Link>
+          <Link className="px-8 tracking-[2px] border-r border-solid border-[rgba(255,255,255,.1)] transition-all hover:text-[#18ffb0]" href="#">Skills</Link>
         </div>
         <div>
-          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Tools</Link>
+          <Link className="px-8 tracking-[2px] border-r border-solid border-[rgba(255,255,255,.1)] transition-all hover:text-[#18ffb0]" href="#">Tools</Link>
         </div>
         <div>
-          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Projects</Link>
+          <Link className="px-8 tracking-[2px] border-r border-solid border-[rgba(255,255,255,.1)] transition-all hover:text-[#18ffb0]" href="#">Projects</Link>
         </div>
         <div>
-          <Link className="px-8 border-r border-solid border-[rgba(255,255,255,.1)]" href="#">Career</Link>
+          <Link className="px-8 tracking-[2px] border-r border-solid border-[rgba(255,255,255,.1)] transition-all hover:text-[#18ffb0]" href="#">Career</Link>
         </div>
         <div>
-          <Link className="px-8" href="#">Contact</Link>
+          <Link className="px-8 tracking-[2px] transition-all hover:text-[#18ffb0]" href="#">Contact</Link>
         </div>
       </div>
     </nav>
