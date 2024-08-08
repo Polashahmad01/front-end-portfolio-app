@@ -10,7 +10,7 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 export default function ToolsIUsePage() {
   return (
     <section className="common-container">
-      <div className="px-4 xl:px-0">
+      <div className="px-4 xl:px-0 mb-[10vh]">
         <h3 className={`${righteous.className} text-3xl opacity-85 mb-[10vh] text-center lg:text-[56px]`}>Tools I Use</h3>
         <div className="grid grid-cols-2 justify-center lg:grid-cols-4 gap-4">
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
