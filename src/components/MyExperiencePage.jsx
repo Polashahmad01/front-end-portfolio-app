@@ -37,8 +37,7 @@ export default function MyExperiencePage() {
             </div>
             <p className="leading-normal text-[#96a7a1]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
-              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum? Voluptatum illo saepe ea
-              esse dicta eum eos. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum
             </p>
           </div>
 
@@ -63,8 +62,7 @@ export default function MyExperiencePage() {
             </div>
             <p className="leading-normal text-[#96a7a1]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
-              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum? Voluptatum illo saepe ea
-              esse dicta eum eos. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum
             </p>
           </div>
 
@@ -89,8 +87,7 @@ export default function MyExperiencePage() {
             </div>
             <p className="leading-normal text-[#96a7a1]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
-              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum? Voluptatum illo saepe ea
-              esse dicta eum eos. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum
             </p>
           </div>
 
@@ -115,8 +112,7 @@ export default function MyExperiencePage() {
             </div>
             <p className="leading-normal text-[#96a7a1]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
-              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum? Voluptatum illo saepe ea
-              esse dicta eum eos. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
+              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum
             </p>
           </div>
 
