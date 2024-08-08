@@ -1,8 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Righteous } from "next/font/google";
 import { GB, CA, US, CZ } from "country-flag-icons/react/3x2";
 import { GrFormNextLink } from "react-icons/gr";
 import tattooDesignProImgSrc from "../../public/images/tattoo-design-pro.png";
+import wordRocketImgSrc from "../../public/images/word-rocket.png";
+import spontivlyImgSrc from "../../public/images/spontivly.png";
+import eireneImgSrc from "../../public/images/eirene.png";
+import zasilkovnaImgSrc from "../../public/images/zasilkovna.png";
+import rhondaImgSrc from "../../public/images/rhonda.png";
 
 const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
@@ -23,15 +29,17 @@ export default function MyRecentWorkPage() {
             <div className="bg-[#24272A] rounded-lg p-4">
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <h6 className="font-bold tracking-wide">TattooDesignPro</h6>
-                  <GrFormNextLink size="20px" />
+                  <Link href="https://tattoodesignpro.com" target="_blank" className="font-bold tracking-wide transition-all hover:opacity-70">TattooDesignPro</Link>
+                  <Link href="https://tattoodesignpro.com" target="_blank" className="transition-all hover:opacity-70">
+                    <GrFormNextLink size="20px" />
+                  </Link>
                 </div>
                 <div className="flex gap-2">
                   <GB title="United Kingdom" className="w-4" />
                   <p className="text-sm opacity-70">Covent Garden, London, United Kingdom</p>
                 </div>
               </div>
-              <div className="text-xs flex items-center gap-2">
+              <div className="text-xs flex items-center gap-[5px]">
                 <p className="opacity-60">Designed by: Polash Ahmad</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
@@ -41,23 +49,25 @@ export default function MyRecentWorkPage() {
           <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
             <div className="mb-4">
               <Image
-                src={tattooDesignProImgSrc}
-                alt="Tattoo Design Pro"
+                src={wordRocketImgSrc}
+                alt="word-rocket"
                 className="w-full rounded-md"
               />
             </div>
             <div className="bg-[#24272A] rounded-lg p-4">
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <h6 className="font-bold tracking-wide">WordRocket</h6>
-                  <GrFormNextLink size="20px" />
+                  <Link href="https://wordrocket.ai" target="_blank" className="font-bold tracking-wide transition-all hover:opacity-70">WordRocket</Link>
+                  <Link href="https://wordrocket.ai" target="_blank" className="transition-all hover:opacity-70">
+                    <GrFormNextLink size="20px" />
+                  </Link>
                 </div>
                 <div className="flex gap-2">
                   <CA title="Canada" className="w-4" />
                   <p className="text-sm opacity-70">Spadina Road, Toronto, Canada</p>
                 </div>
               </div>
-              <div className="text-xs flex items-center gap-2">
+              <div className="text-xs flex items-center gap-[5px]">
                 <p className="opacity-60">Designed by: Polash Ahmad</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
@@ -67,23 +77,25 @@ export default function MyRecentWorkPage() {
           <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
             <div className="mb-4">
               <Image
-                src={tattooDesignProImgSrc}
-                alt="Tattoo Design Pro"
+                src={spontivlyImgSrc}
+                alt="spontivly"
                 className="w-full rounded-md"
               />
             </div>
             <div className="bg-[#24272A] rounded-lg p-4">
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <h6 className="font-bold tracking-wide">Spontivly</h6>
-                  <GrFormNextLink size="20px" />
+                  <Link href="https://www.spontivly.com" target="_blank" className="font-bold tracking-wide transition-all hover:opacity-70">Spontivly</Link>
+                  <Link href="https://www.spontivly.com" target="_blank" className="transition-all hover:opacity-70">
+                    <GrFormNextLink size="20px" />
+                  </Link>
                 </div>
                 <div className="flex gap-2">
                   <US title="United States" className="w-4" />
                   <p className="text-sm opacity-70">St Petersburg, Florida, United States</p>
                 </div>
               </div>
-              <div className="text-xs flex items-center gap-2">
+              <div className="text-xs flex items-center gap-[5px]">
                 <p className="opacity-60">Designed by: Polash Ahmad</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
@@ -93,23 +105,25 @@ export default function MyRecentWorkPage() {
           <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
             <div className="mb-4">
               <Image
-                src={tattooDesignProImgSrc}
-                alt="Tattoo Design Pro"
+                src={eireneImgSrc}
+                alt="Eirene Cremations"
                 className="w-full rounded-md"
               />
             </div>
             <div className="bg-[#24272A] rounded-lg p-4">
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <h6 className="font-bold tracking-wide">Eirene Cremations</h6>
-                  <GrFormNextLink size="20px" />
+                  <Link href="https://eirenecremations.com" target="_blank" className="font-bold tracking-wide transition-all hover:opacity-70">Eirene Cremations</Link>
+                  <Link href="https://eirenecremations.com" target="_blank" className="transition-all hover:opacity-70">
+                    <GrFormNextLink size="20px" />
+                  </Link>
                 </div>
                 <div className="flex gap-2">
                   <CA title="Canada" className="w-4" />
                   <p className="text-sm opacity-70">Regina, Saskatchewan, Canada</p>
                 </div>
               </div>
-              <div className="text-xs flex items-center gap-2">
+              <div className="text-xs flex items-center gap-[5px]">
                 <p className="opacity-60">Designed by: Polash Ahmad</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
@@ -119,23 +133,25 @@ export default function MyRecentWorkPage() {
           <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
             <div className="mb-4">
               <Image
-                src={tattooDesignProImgSrc}
-                alt="Tattoo Design Pro"
+                src={zasilkovnaImgSrc}
+                alt="Zasilkovna"
                 className="w-full rounded-md"
               />
             </div>
             <div className="bg-[#24272A] rounded-lg p-4">
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <h6 className="font-bold tracking-wide">Zasilkovna</h6>
-                  <GrFormNextLink size="20px" />
+                  <Link href="https://zasilkovna.cz" target="_blank" className="font-bold tracking-wide transition-all hover:opacity-70">Zasilkovna</Link>
+                  <Link href="https://zasilkovna.cz" target="_blank" className="transition-all hover:opacity-70">
+                    <GrFormNextLink size="20px" />
+                  </Link>
                 </div>
                 <div className="flex gap-2">
                   <CZ title="Czech Republic" className="w-4" />
                   <p className="text-sm opacity-70">Českomoravská 2408, 190 00 Praha 9, Czechia</p>
                 </div>
               </div>
-              <div className="text-xs flex items-center gap-2">
+              <div className="text-xs flex items-center gap-[5px]">
                 <p className="opacity-60">Designed by: Polash Ahmad</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
@@ -145,23 +161,25 @@ export default function MyRecentWorkPage() {
           <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">
             <div className="mb-4">
               <Image
-                src={tattooDesignProImgSrc}
-                alt="Tattoo Design Pro"
+                src={rhondaImgSrc}
+                alt="rhonda ai"
                 className="w-full rounded-md"
               />
             </div>
             <div className="bg-[#24272A] rounded-lg p-4">
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <h6 className="font-bold tracking-wide">Rhonda.ai</h6>
-                  <GrFormNextLink size="20px" />
+                  <Link href="#" target="_blank" className="font-bold tracking-wide transition-all hover:opacity-70">Rhonda.ai</Link>
+                  <Link href="#" target="_blank" className="transition-all hover:opacity-70">
+                    <GrFormNextLink size="20px" />
+                  </Link>
                 </div>
                 <div className="flex gap-2">
                   <CA title="Canada" className="w-4" />
                   <p className="text-sm opacity-70">Ottawa, Ontario, Canada</p>
                 </div>
               </div>
-              <div className="text-xs flex items-center gap-2">
+              <div className="text-xs flex items-center gap-[5px]">
                 <p className="opacity-60">Designed by: Polash Ahmad</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>

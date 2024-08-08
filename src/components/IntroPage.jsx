@@ -15,7 +15,7 @@ export default function IntroPage() {
   return (
     <section className="common-container py-[5vh] sm:py-[20vh]">
       <div className="relative mx-4 xl:mx-0">
-        <div className="intro__glow absolute top-40" />
+        <div className="hidden lg:block intro__glow absolute top-40" />
         <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
           <div className="flex justify-center lg:justify-start lg:items-center">
             <div className="relative">
@@ -65,7 +65,7 @@ export default function IntroPage() {
             <div className="text-lg font-light sm:font-semibold flex items-center justify-center lg:justify-start gap-4">
               <button className="flex items-center justify-center gap-2 bg-[#20bf55] w-52 text-black py-[11px] rounded-xl border border-solid border-[rgba(255,255,255,.1)] transition-all hover:border-[#20bf55] hover:rounded-xl">
                 <FaCloudDownloadAlt size="20px" className="text-black" />
-                <span className="">Download</span>
+                <span className="">Resume</span>
               </button>
               <Link href="mailto:dev.polashahmad@gmail.com" className="flex items-center justify-center gap-2 bg-[#171717] py-[11px] w-52 rounded-xl border border-solid border-[rgba(255,255,255,.1)] transition-all hover:border-[#20bf55] hover:rounded-xl hover:text-[#20bf55]">
                 <MdEmail size="18px" className="" />
