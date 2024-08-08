@@ -10,9 +10,9 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function MyExperiencePage() {
   return (
-    <section className="container mx-auto my-[10vh]">
+    <section className="common-container">
       <div className="px-4 xl:px-0">
-        <h3 className={`${righteous.className} text-3xl lg:text-5xl lg:text-center mb-12 opacity-85`}>My Experience</h3>
+        <h3 className={`${righteous.className} text-3xl opacity-85 mb-[10vh] text-center lg:text-[56px]`}>My Experience</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="opacity-85 p-8 rounded-xl bg-[#171717]">
             <div className="flex flex-wrap items-center gap-4 mb-2">
