@@ -9,7 +9,7 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 export default function MyRecentWorkPage() {
   return (
     <section className="container mx-auto">
-      <div className="px-4 xl:px-0">
+      <div className="px-4 xl:px-0 mt-[10vh]">
         <h3 className={`${righteous.className} text-3xl lg:text-5xl lg:text-center mb-12 opacity-85`}>My Recent Projects</h3>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div className="bg-[#191B1F] p-4 rounded-lg inline-block opacity-85">

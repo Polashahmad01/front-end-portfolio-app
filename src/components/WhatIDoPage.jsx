@@ -8,7 +8,7 @@ const spacegrotesk = Space_Grotesk({ subsets: ["latin"], weight: ["300", "400", 
 export default function WhatIDoPage() {
   return (
     <section className="common-container">
-      <div className="relative px-4 xl:px-0">
+      <div className="relative px-4 xl:px-0 mb-[20vh]">
         <div className="what__i__do__glow absolute top-96 right-40" />
         <h3 className={`${righteous.className} text-3xl opacity-85 mb-[10vh] text-center lg:text-[56px]`}>Skills</h3>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-[5vh] lg:gap-8">
