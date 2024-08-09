@@ -63,7 +63,7 @@ export default function IntroPage() {
               Let&apos;s collaborate and bring your vision to life with exceptional results!
             </p>
             <div className="text-lg font-light sm:font-semibold flex items-center justify-center lg:justify-start gap-4">
-              <button className="flex items-center justify-center gap-2 bg-[#20bf55] w-52 text-black py-[11px] rounded-xl border border-solid border-[rgba(255,255,255,.1)] transition-all hover:border-[#20bf55] hover:rounded-xl">
+              <button className="flex items-center justify-center gap-2 bg-[#20bf55] w-52 text-black py-[11px] rounded-xl border border-solid border-[rgba(255,255,255,.1)] transition-all hover:border-[#20bf55] hover:rounded-xl hover:opacity-90">
                 <FaCloudDownloadAlt size="20px" className="text-black" />
                 <span className="">Resume</span>
               </button>
