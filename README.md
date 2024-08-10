@@ -1,4 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Personal Portfolio Site**
+
+A personal portfolio of Polash Ahmad. I built it using Next.js, Tailwind CSS. On the other hand, Some Javscript packages such as: react-icons, country-flag-icons are also implemented here. It's fully responsive with dark themed version.
+
+# Author
+
+- GitHub: [Polashahmad01](https://github.com/polashahmad01)
+- Twitter: [Polashahmad01](https://twitter.com/polashahmad01)
+- Linkedin: [Polashahmad01](https://linkedin.com/in/polashahmad01)
+
+## Demo
+
+Live version can be found at: [https://front.polashahmad.com](https://front.polashahmad.com)
+
+## Tech Stack
+
+Next.js, Tailwindcss, React Icons
 
 ## Getting Started
 
@@ -20,17 +36,4 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Deployed In:** Vercel
