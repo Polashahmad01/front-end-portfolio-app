@@ -11,8 +11,9 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 export default function MyExperiencePage() {
   return (
     <section className="common-container" id="my-experience">
-      <div className="px-4 xl:px-0 mb-[10vh]">
+      <div className="px-4 xl:px-0 mb-[10vh] relative">
         <h3 className={`${righteous.className} text-3xl opacity-85 mb-[10vh] text-center lg:text-[56px]`}>My Experience</h3>
+        <div className="hidden lg:block my__experience__glow absolute top-[450px]" />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="border px-8 py-10 border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.01)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex items-center mb-4 gap-4">

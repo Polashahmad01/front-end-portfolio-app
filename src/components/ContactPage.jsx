@@ -13,13 +13,13 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-20 mx-4 xl:mx-0">
           <div className="opacity-85">
             <div className="mb-6">
-              <Link href="mailto:dev.polashahmad@gmail.com" className={`${righteous.className} px-4 py-[6px] uppercase text-sm border border-solid rounded-[80px] backdrop-blur-xl border-[rgba(255,255,255,.1)] bg-[rgba(4,19,14,.5)] transition-all hover:border-[#20bf55] hover:rounded-[80px] hover:text-[#20bf55]`}>Contact Me</Link>
+              <Link href="mailto:dev.polashahmad@gmail.com" className={`px-4 py-[6px] uppercase text-sm border border-solid rounded-[80px] backdrop-blur-xl border-[rgba(255,255,255,.4)] bg-[rgba(4,19,14,.5)] transition-all hover:border-[#20bf55] hover:rounded-[80px] hover:text-[#20bf55]`}>Contact Me</Link>
             </div>
             <h4 className={`${righteous.className} text-3xl lg:text-5xl mb-6`}>Let&#39;s Get In Touch!</h4>
-            <p className="font-light mb-6">
+            <p className="font-light opacity-70 mb-6">
               If you&#39;re interested in learning more about me, collaborating on a project, or simply curious and want to say hello, please don&#39;t hesitate to send me a message. I enjoy receiving messages from people on the internet!
             </p>
-            <div className="border-t border-solid border-[#181818] mb-6" />
+            <div className="border-t-0 border-b-[1px] border-solid border-[#454547] mb-6" />
             <p className={`${righteous.className} text-lg mb-4`}>Follow Me</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="https://www.facebook.com/polashahmad01" target="_blank" className="transition-all hover:opacity-80">
