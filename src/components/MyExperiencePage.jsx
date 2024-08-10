@@ -29,8 +29,9 @@ export default function MyExperiencePage() {
               <p className="text-sm opacity-70">March 2020 - Dec 2021</p>
             </div>
             <p className="leading-normal text-[#96a7a1]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
-              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum
+              At Eirene Cremations, I focused on the front end, delivering features such as a deceased status checker and creating forms for listing 
+              deceased information. I also built internal tools to manage the entire system and integrated backend APIs & collaborated 
+              with the team to ensure a seamless user experience.
             </p>
           </div>
           <div className="border px-8 py-10 border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.01)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
@@ -45,11 +46,12 @@ export default function MyExperiencePage() {
             </div>
             <div className="flex items-center justify-between">
               <h4 className="leading-tight mb-4 text-2xl font-medium opacity-90">FrontEnd Developer</h4>
-              <p className="text-sm opacity-70">March 2020 - Dec 2021</p>
+              <p className="text-sm opacity-70">Jun 2022 - Feb 2023</p>
             </div>
             <p className="leading-normal text-[#96a7a1]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
-              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum
+              At Spontivly, I developed and maintained web applications as a team member. I created a library content management 
+              system with user-friendly features and implemented a complex search filter for refining content. I also designed the UI/UX, 
+              fixed bugs, and deployed the application to production.
             </p>
           </div>
           <div className="border px-8 py-10 border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.01)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
@@ -64,11 +66,12 @@ export default function MyExperiencePage() {
             </div>
             <div className="flex items-center justify-between">
               <h4 className="leading-tight mb-4 text-2xl font-medium opacity-90">FrontEnd Engineer</h4>
-              <p className="text-sm opacity-70">March 2020 - Dec 2021</p>
+              <p className="text-sm opacity-70">Mar 2021 - Apr 2022</p>
             </div>
             <p className="leading-normal text-[#96a7a1]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
-              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum
+              I worked on the Zasilkovna parcel delivery platform, building the UI with React.js and creating a custom API library. 
+              I implemented features like authentication and parcel management while ensuring a responsive design. 
+              Additionally, I developed reusable components to enhance code efficiency.
             </p>
           </div>
           <div className="border px-8 py-10 border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.01)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
@@ -83,11 +86,12 @@ export default function MyExperiencePage() {
             </div>
             <div className="flex items-center justify-between">
               <h4 className="leading-tight mb-4 text-2xl font-medium opacity-90">FrontEnd Developer</h4>
-              <p className="text-sm opacity-70">March 2020 - Dec 2021</p>
+              <p className="text-sm opacity-70">Jan 2020 - Jan 2021</p>
             </div>
             <p className="leading-normal text-[#96a7a1]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non eius iure nostrum nobis sunt voluptates excepturi deserunt possimus.
-              Assumenda culpa, hic, necessitatibus totam perferendis distinctio labore sequi, vero qui ipsa voluptatum
+              At Zination, I worked on the Rhonda.ai project to help companies streamline their hiring processes. I integrated the applicant screening module, 
+              built a savings tracker, implemented the &ldquo;Ask Rhonda&ldquo; feature, and ensured a pixel-perfect UI/UX. Additionally, 
+              I fixed bugs and deployed the web application to production.
             </p>
           </div>
         </div>
