@@ -41,7 +41,7 @@ export default function MyRecentWorkPage() {
                 </div>
               </div>
               <div className="text-xs flex items-center gap-[5px]">
-                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <p className="opacity-60">Designed by: Softera</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>
@@ -69,7 +69,7 @@ export default function MyRecentWorkPage() {
                 </div>
               </div>
               <div className="text-xs flex items-center gap-[5px]">
-                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <p className="opacity-60">Designed by: Ekkel</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>
@@ -97,7 +97,7 @@ export default function MyRecentWorkPage() {
                 </div>
               </div>
               <div className="text-xs flex items-center gap-[5px]">
-                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <p className="opacity-60">Designed by: Spontivly</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>
@@ -125,7 +125,7 @@ export default function MyRecentWorkPage() {
                 </div>
               </div>
               <div className="text-xs flex items-center gap-[5px]">
-                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <p className="opacity-60">Designed by: Eirene</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>
@@ -153,7 +153,7 @@ export default function MyRecentWorkPage() {
                 </div>
               </div>
               <div className="text-xs flex items-center gap-[5px]">
-                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <p className="opacity-60">Designed by: Hanaboso</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>
@@ -181,7 +181,7 @@ export default function MyRecentWorkPage() {
                 </div>
               </div>
               <div className="text-xs flex items-center gap-[5px]">
-                <p className="opacity-60">Designed by: Polash Ahmad</p>
+                <p className="opacity-60">Designed by: Rhonda</p>
                 <div className="h-[5px] w-[5px] bg-white rounded-full opacity-70" />
                 <p className="opacity-60">Developed by: Polash Ahmad</p>
               </div>

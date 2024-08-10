@@ -27,7 +27,7 @@ export default function MyExperiencePage() {
             </div>
             <div className="flex items-center justify-between">
               <h4 className="leading-tight mb-4 text-2xl font-medium opacity-90">FrontEnd Engineer</h4>
-              <p className="text-sm opacity-70">March 2020 - Dec 2021</p>
+              <p className="text-sm opacity-70">Mar 2023 - Apr 2024</p>
             </div>
             <p className="leading-normal text-[#96a7a1]">
               At Eirene Cremations, I focused on the front end, delivering features such as a deceased status checker and creating forms for listing 
