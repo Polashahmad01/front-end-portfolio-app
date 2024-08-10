@@ -65,7 +65,7 @@ export default function MyExperiencePage() {
               </Link>
             </div>
             <div className="flex items-center justify-between">
-              <h4 className="leading-tight mb-4 text-2xl font-medium opacity-90">FrontEnd Engineer</h4>
+              <h4 className="leading-tight mb-4 text-2xl font-medium opacity-90">FrontEnd Developer</h4>
               <p className="text-sm opacity-70">Mar 2021 - Apr 2022</p>
             </div>
             <p className="leading-normal text-[#96a7a1]">
@@ -85,7 +85,7 @@ export default function MyExperiencePage() {
               </Link>
             </div>
             <div className="flex items-center justify-between">
-              <h4 className="leading-tight mb-4 text-2xl font-medium opacity-90">FrontEnd Developer</h4>
+              <h4 className="leading-tight mb-4 text-2xl font-medium opacity-90">FrontEnd Engineer</h4>
               <p className="text-sm opacity-70">Jan 2020 - Jan 2021</p>
             </div>
             <p className="leading-normal text-[#96a7a1]">
