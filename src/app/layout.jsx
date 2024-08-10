@@ -5,7 +5,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400
 
 export const metadata = {
   title: "Polash Ahmad | Front End Engineer",
-  description: "",
+  description: "Polash Ahmad - Front-End Engineer specializing in React.js, Next.js, Firebase.js, Redux.js, Git, GitHub, SASS, TailwindCSS, HTML, and CSS. Crafting dynamic, responsive, and user-centric web applications with modern front-end technologies.",
 };
 
 export default function RootLayout({ children }) {
