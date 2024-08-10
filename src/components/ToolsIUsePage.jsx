@@ -9,7 +9,7 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function ToolsIUsePage() {
   return (
-    <section className="common-container">
+    <section className="common-container" id="tools-i-use">
       <div className="px-4 xl:px-0 mb-[10vh]">
         <h3 className={`${righteous.className} text-3xl opacity-85 mb-[10vh] text-center lg:text-[56px]`}>Tools I Use</h3>
         <div className="grid grid-cols-2 justify-center lg:grid-cols-4 gap-4">

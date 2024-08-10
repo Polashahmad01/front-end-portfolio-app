@@ -13,7 +13,7 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function IntroPage() {
   return (
-    <section className="common-container py-[5vh] sm:py-[20vh]">
+    <section className="common-container py-[5vh] sm:py-[20vh]" id="intro">
       <div className="relative mx-4 xl:mx-0">
         <div className="hidden lg:block intro__glow absolute top-40" />
         <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">

@@ -26,22 +26,22 @@ export default function MobileNavigation() {
       {isMenuOpen && (
         <div className="uppercase mt-4 font-light text-sm tracking-wide opacity-85 flex flex-col gap-4 justify-center items-center">
           <div>
-            <Link href="#">Home</Link>
+            <Link href="#intro">Home</Link>
           </div>
           <div>
-            <Link href="#">Skill</Link>
+            <Link href="#skills">Skill</Link>
           </div>
           <div>
-            <Link href="#">Tool</Link>
+            <Link href="#tools-i-use">Tool</Link>
           </div>
           <div>
-            <Link href="#">Project</Link>
+            <Link href="#my-recent-project">Project</Link>
           </div>
           <div>
-            <Link href="#">Career</Link>
+            <Link href="#my-experience">Career</Link>
           </div>
           <div className="pb-4">
-            <Link href="#">Contact</Link>
+            <Link href="#contact-me">Contact</Link>
           </div>
         </div>
       )}

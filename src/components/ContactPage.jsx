@@ -7,7 +7,7 @@ const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
 export default function ContactPage() {
   return (
-    <section className="common-container">
+    <section className="common-container" id="contact-me">
       <div className="px-4 xl:px-0 mb-[10vh]">
         <h3 className={`${righteous.className} text-3xl opacity-85 mb-[10vh] text-center lg:text-[56px]`}>Contact Me</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-20 mx-4 xl:mx-0">
