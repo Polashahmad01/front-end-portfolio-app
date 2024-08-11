@@ -74,7 +74,7 @@ export default function ToolsIUsePage() {
             <div className="flex flex-col items-center justify-center h-full">
               <div>
                 <SiFirebase color="#FFCD34" className="mb-4 ml-2" size="70px" />
-                <p className="uppercase font-medium text-center opacity-80">FirebaseJS</p>
+                <p className="uppercase font-medium text-center opacity-80">Firebase SDK</p>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function ToolsIUsePage() {
             <div className="flex flex-col items-center justify-center h-full">
               <div>
                 <BsStripe color="#685FFF" className="mb-4" size="70px" />
-                <p className="uppercase font-medium text-center opacity-80">StripeJS</p>
+                <p className="uppercase font-medium text-center opacity-80">Stripe SDK</p>
               </div>
             </div>
           </div>
