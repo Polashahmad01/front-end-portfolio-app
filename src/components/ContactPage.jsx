@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Righteous } from "next/font/google";
-import { FaTwitterSquare, FaTelegramPlane } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
 import { FaSquareFacebook, FaLinkedin, FaSquareWhatsapp } from "react-icons/fa6";
+import ContactForm from "./ContactForm";
 
 const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
@@ -36,24 +37,7 @@ export default function ContactPage() {
               </Link>
             </div>
           </div>
-          <div className="bg-[#171717] rounded-2xl backdrop-blur px-8 py-8 lg:px-10 lg:py-14">
-            <h4 className={`${righteous.className} text-3xl lg:text-5xl mb-10 opacity-85`}>Let&#39;s Talk!</h4>
-            <div className="grid grid-rows-1 gap-10">
-              <div className="w-full">
-                <input className="py-[12px] bg-transparent border-y-0 border-t-0 border-b-[1px] border-solid border-[#454547] w-full opacity-50 transition-all outline-none focus:border-[#20bf55] focus:opacity-80" type="text" placeholder="Enter your name" />
-              </div>
-              <div className="w-full">
-                <input className="py-[12px] bg-transparent border-y-0 border-t-0 border-b-[1px] border-solid border-[#454547] w-full opacity-50 transition-all outline-none focus:border-[#20bf55] focus:opacity-80" type="email" placeholder="Enter your email" />
-              </div>
-              <div className="w-full">
-                <textarea className="py-[12px] bg-transparent border-y-0 border-t-0 border-b-[1px] border-solid border-[#454547] w-full opacity-50 resize-none transition-all outline-none focus:border-[#20bf55] focus:opacity-80" rows={1} placeholder="Enter your message"></textarea>
-              </div>
-              <button className="px-4 py-[14px] w-full flex items-center justify-center gap-2 bg-[#171717] rounded-xl border border-solid border-[#20bf55] font-semibold text-[#20bf55] transition-all hover:bg-[#20bf55] hover:text-black">
-                <FaTelegramPlane size="20px" className="" />
-                <span>Send Message</span>
-              </button>
-            </div>
-          </div>
+          <ContactForm />
         </div>
       </div>
     </section>
