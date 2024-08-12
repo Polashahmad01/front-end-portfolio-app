@@ -16,7 +16,7 @@ export default function ToolsIUsePage() {
         <div className="grid grid-cols-2 justify-center lg:grid-cols-4 gap-4">
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <FaHtml5 color="#FFFF00" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Html</p>
               </div>
@@ -24,7 +24,7 @@ export default function ToolsIUsePage() {
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <IoLogoCss3 color="#FF00FF" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Css</p>
               </div>
@@ -32,7 +32,7 @@ export default function ToolsIUsePage() {
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <IoLogoSass color="#CE649A" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Sass</p>
               </div>
@@ -40,15 +40,15 @@ export default function ToolsIUsePage() {
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
-                <RiJavascriptFill color="#EFD81A" className="mb-4 ml-3" size="70px" />
+              <div className="flex flex-col items-center">
+                <RiJavascriptFill color="#EFD81A" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">JavaScript</p>
               </div>
             </div>
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <IoLogoReact color="#5ED2F3" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">ReactJS</p>
               </div>
@@ -56,7 +56,7 @@ export default function ToolsIUsePage() {
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <SiRedux color="#7248B6" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">ReduxJS</p>
               </div>
@@ -64,7 +64,7 @@ export default function ToolsIUsePage() {
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <RiNextjsFill color="#01FFFF" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">NextJS</p>
               </div>
@@ -72,15 +72,15 @@ export default function ToolsIUsePage() {
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
-                <SiFirebase color="#FFCD34" className="mb-4 ml-2" size="70px" />
+              <div className="flex flex-col items-center">
+                <SiFirebase color="#FFCD34" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Firebase SDK</p>
               </div>
             </div>
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <BsStripe color="#685FFF" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Stripe SDK</p>
               </div>
@@ -88,7 +88,7 @@ export default function ToolsIUsePage() {
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <FaGitAlt color="#F0563B" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Git</p>
               </div>
@@ -96,7 +96,7 @@ export default function ToolsIUsePage() {
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <FaGithub className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Github</p>
               </div>
@@ -104,7 +104,7 @@ export default function ToolsIUsePage() {
           </div>
           <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
             <div className="flex flex-col items-center justify-center h-full">
-              <div>
+              <div className="flex flex-col items-center">
                 <IoTerminal color="#FFCD34" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Terminal</p>
               </div>
