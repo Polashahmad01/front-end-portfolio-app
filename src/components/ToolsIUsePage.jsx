@@ -1,7 +1,7 @@
 import { Righteous } from "next/font/google";
 import { FaHtml5, FaGitAlt, FaGithub } from "react-icons/fa";
-import { IoLogoCss3, IoLogoSass, IoLogoReact, IoTerminal } from "react-icons/io5";
-import { RiJavascriptFill, RiNextjsFill } from "react-icons/ri";
+import { IoLogoCss3, IoLogoSass, IoLogoReact } from "react-icons/io5";
+import { RiJavascriptFill, RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiFirebase, SiRedux } from "react-icons/si";
 import { BsStripe } from "react-icons/bs";
 
@@ -35,6 +35,14 @@ export default function ToolsIUsePage() {
               <div className="flex flex-col items-center">
                 <IoLogoSass color="#CE649A" className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Sass</p>
+              </div>
+            </div>
+          </div>
+          <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
+            <div className="flex flex-col items-center justify-center h-full">
+              <div className="flex flex-col items-center">
+                <RiTailwindCssFill color="#26C0CD" className="mb-4" size="70px" />
+                <p className="uppercase font-medium text-center opacity-80">Tailwind CSS</p>
               </div>
             </div>
           </div>
@@ -99,14 +107,6 @@ export default function ToolsIUsePage() {
               <div className="flex flex-col items-center">
                 <FaGithub className="mb-4" size="70px" />
                 <p className="uppercase font-medium text-center opacity-80">Github</p>
-              </div>
-            </div>
-          </div>
-          <div className="py-[6vh] border border-solid border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] rounded-2xl backdrop-blur shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
-            <div className="flex flex-col items-center justify-center h-full">
-              <div className="flex flex-col items-center">
-                <IoTerminal color="#FFCD34" className="mb-4" size="70px" />
-                <p className="uppercase font-medium text-center opacity-80">Terminal</p>
               </div>
             </div>
           </div>
