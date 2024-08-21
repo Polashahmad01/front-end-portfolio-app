@@ -3,11 +3,12 @@ import Link from "next/link";
 import { MdEmail } from "react-icons/md";
 import { IoArrowForwardOutline } from "react-icons/io5";
 import { FaSquareFacebook } from "react-icons/fa6";
-import { FaTwitterSquare, FaCloudDownloadAlt } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import polashImgSrc from "../../public/images/polash_ahmad.jpg";
 import { Righteous } from "next/font/google";
+import ResumeDownloadButton from "./ResumeDownloadButton";
 
 const righteous = Righteous({ subsets: ["latin"], weight: ["400"] });
 
@@ -63,10 +64,7 @@ export default function IntroPage() {
               Let&apos;s collaborate and bring your vision to life with exceptional results!
             </p>
             <div className="text-lg font-light sm:font-semibold flex items-center justify-center lg:justify-start gap-4">
-              <button className="flex items-center justify-center gap-2 bg-[#20bf55] w-52 text-black py-[11px] rounded-xl border border-solid border-[rgba(255,255,255,.1)] transition-all hover:border-[#20bf55] hover:rounded-xl hover:opacity-90">
-                <FaCloudDownloadAlt size="20px" className="text-black" />
-                <span className="">Resume</span>
-              </button>
+              <ResumeDownloadButton />
               <Link href="mailto:dev.polashahmad@gmail.com" className="flex items-center justify-center gap-2 bg-[#171717] py-[11px] w-52 rounded-xl border border-solid border-[rgba(255,255,255,.1)] transition-all hover:border-[#20bf55] hover:rounded-xl hover:text-[#20bf55]">
                 <MdEmail size="18px" className="" />
                 <span className="">Contact</span>
